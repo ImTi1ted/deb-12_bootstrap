@@ -6,7 +6,7 @@ set -e
 apt update
 apt install -y \
   openbox lxpanel lxterminal x11vnc xvfb feh \
-  obconf lxappearance arc-theme papirus-icon-theme
+  obconf lxappearance arc-theme papirus-icon-theme volumeicon nm-applet
 
 # Move wallpaper
 mkdir -p ~/Photos
